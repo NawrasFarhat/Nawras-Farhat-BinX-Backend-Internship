@@ -123,7 +123,15 @@ public Customer? GetCustomer(int id)
 **Key takeaway:** Controllers and routing provide a structured way to handle HTTP requests and expose application data through APIs.
 
 ---
+### API Endpoints
 
+Implemented and tested four GET endpoints using both Controllers and Minimal APIs:
+
+- `GET /api/Customers` – Get all customers using a Controller.
+- `GET /api/Customers/{id}` – Get a customer by ID using a Controller.
+- `GET /Customers` – Get all customers using a Minimal API.
+- `GET /Customers/{id}` – Get a customer by ID using a Minimal API.
+  
 ## Day 05 – Middleware & Dependency Injection
 
 Focused on understanding the **HTTP request pipeline** and separating application logic using services and Dependency Injection.
